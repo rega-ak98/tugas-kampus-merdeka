@@ -1,0 +1,60 @@
+
+.navbar-brand{
+    background-color: darkblue;
+    width: 100px;
+    height: 34px;
+
+}
+.nav-item{
+    padding-right: 32px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.row.col.h2{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+.row.col.p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+.row.col.img{
+    position: absolute;
+    width: 704px;
+    height: 407px;
+    left: 736px;
+    top: 97px;
+}
+.ourservice.img{
+    justify-content: end;
+    width: 459px;
+    height: 428px;
+}
+.card-text{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+    color: #000000;
+}
+.card-title{
+    position: static;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
