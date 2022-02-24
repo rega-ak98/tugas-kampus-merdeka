@@ -1,60 +1,265 @@
 
+@media (max-width: 1200px) and (min-width: 992px) {
+    #b1{
+        margin-bottom: 22px;
+    }
+    .footer-widget .gambar5{
+        margin-top: 8px;
+    }
+    #t1{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .blog-header .h6{
+        display: none;
+    }
+    
+    .blog-service li{
+        display: none;
+    }
+    #h1{
+        font-size:30px;
+    }
+    #o1{
+        font-size: 30px;
+    }
+    #w1{
+        margin-bottom: 19px;
+    }
+    #w2{
+        margin-bottom: 18px;
+    }
+    #f1{
+        margin-top: 8px;
+    }
+    #b1{
+        font-size: 30px;
+    }
+    #b2{
+        font-size: 13px;
+    }
+    #faq1{
+        font-size: 11px;
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .blog-header .h6{
+        display: none;
+    }
+    
+    .blog-service ul{
+        display: none;
+    }
+    #h1{
+        font-size:20px;
+    }
+    #o1{
+        font-size: 20px;
+    }
+    #w1{
+        margin-bottom: 19px;
+    }
+    #w2{
+        margin-bottom: 18px;
+    }
+    #f1{
+        margin-top: 8px;
+    }
+    #b1{
+        font-size: 20px;
+    }
+    #b2{
+        font-size: 10px;
+    }
+    #faq1{
+        font-size: 13px;
+    }
+    #t1{
+        padding-left: 20px;
+    }
+}
+@media (max-width: 576px){
+    #h2{
+        display: none;
+    }
+    #h1{
+        font-size: 20px;
+    }
+    .blog-service ul{
+        display: none;
+    }
+    #o1{
+        font-size: 20px;
+    }
+    #f1{
+        margin-top: 10px;
+    }
+    #b1{
+        font-size: 20px;
+    }
+    #b2{
+        font-size: 10px;
+    }
+}
+
 .navbar-brand{
     background-color: darkblue;
     width: 100px;
     height: 34px;
-
 }
 .nav-item{
     padding-right: 32px;
     font-family: Helvetica;
     font-style: normal;
-    font-weight: normal;
+    font-weight:500;
     font-size: 14px;
     line-height: 20px;
+    color: #000000;
 }
-.row.col.h2{
+.nav-item .button{
+    background: #5CB85F;
+    border-radius: 2px;
+}
+.blog-header{
+    background-color:rgba(241, 243, 255, 1);
+}
+.blog-header .h1{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
 }
-.row.col.p{
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-}
-.row.col.img{
-    position: absolute;
-    width: 704px;
-    height: 407px;
-    left: 736px;
-    top: 97px;
-}
-.ourservice.img{
-    justify-content: end;
-    width: 459px;
-    height: 428px;
-}
-.card-text{
+.blog-header .h6{
     font-family: Helvetica;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 16px 0px;
+}
+.blog-header .button{
+    background: #5CB85F;
+    border-radius: 2px;
+}
+.blog-service h2{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+.blog-service .p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
     color: #000000;
 }
-.card-title{
-    position: static;
+.blog-why .h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+.blog-why .p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+.blog-why .card-title{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 24px;
     color: #000000;
+}
+.blog-why .card-text{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+ .blog-banner .container{
+    background: #0D28A6;
+    border-radius: 13px;
+}
+.blog-banner .h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.blog-banner p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.blog-banner .btn{
+    background: #5CB85F;
+    border-radius: 2px;
+}
+.blog-faq .h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+.blog-faq .p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+.blog-faq .form-select{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+.footer-main p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer-main .logo{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+}
+.blog-testi .item p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+.blog-testi .item{
+    background-color: #F1F3FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+}
+.blog-testi .container h4{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+.blog-testi .container p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+svg:hover{
+    color: #107715;
 }
